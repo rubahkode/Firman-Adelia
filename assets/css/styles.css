@@ -266,11 +266,11 @@ the website, in dark theme
 @media screen and (max-width: 767px){ 
   .nav__name {
     font-family: var(--confortaa);
-    font-size: .6rem;
+    font-size: .55rem;
   }
   .nav__icon {
     font-size: 1.5rem;
-    padding: 0 1rem;
+    padding: 0 .6rem;
   }
   .nav__img {
     display: none;
@@ -279,9 +279,9 @@ the website, in dark theme
     height: 0;
     bottom: .5rem;
   }
-  .nav_item_maps{
+  /* .nav_item_maps{
     display: none;
-  }
+  } */
   .home__container{
     margin-top: 50%;
   }
@@ -857,7 +857,7 @@ the website, in dark theme
   border-radius: .5rem;
 }
 .lokasi_container {
-  height: 100vh;
+  height: auto;
   position: relative;
 }
 /*=============== Galeri ===============*/
@@ -1303,8 +1303,8 @@ the website, in dark theme
     font-size: var(--normal-font-size);
   }
   .card iframe{
-    width: 255px;
-    height: 360px;
+    width: 260px;
+    height: 300px;
   }
   .show-scroll{
     bottom: 4.8rem;
@@ -1505,8 +1505,8 @@ the website, in dark theme
     font-size: .55rem;
   }
   .card iframe{
-    width: 300px;
-    height: 500px;
+    width: 320px;
+    height: 400px;
   }
   .ucapan{
     height: 100vh;
@@ -1597,12 +1597,11 @@ the website, in dark theme
   }
   .nav__name {
     font-family: var(--confortaa);
-    font-size: .6rem;
-    display: block;
+    font-size: .55rem;
   }
   .nav__icon {
     font-size: 1.5rem;
-    padding: 0 1rem;
+    padding: 0 .7rem;
   }
   .about__nama,.foto_pasangan{
     margin-top: .5rem;
@@ -1715,6 +1714,9 @@ the website, in dark theme
   .about__nama,.foto_pasangan{
     margin-top: .7rem;
   }
+  .maps{
+    height: auto;
+  }
   .ucapan{
     height: 100vh;
   }
@@ -1730,6 +1732,10 @@ the website, in dark theme
   }
   .footer__copy{
     display: none;
+  }
+  .acara__data > .row > .grid_vertical{
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .maps{
     height: 100vh;
@@ -1754,12 +1760,6 @@ the website, in dark theme
 
 }
 
-@media only screen and (max-width: 360px) and (min-height: 559px)  {
-  /* .col_countdown{
-    column-gap: 1rem;
-  } */
-  
-}
 
 @media screen and (min-width: 767px){
   body{
@@ -1792,7 +1792,6 @@ the website, in dark theme
   .nav__name {
     font-size: .7rem;
     font-family: var(--confortaa);
-    display: block;
   }
   .nav__link:hover {
     color: var(--first-color);
@@ -1938,8 +1937,8 @@ the website, in dark theme
     display: none;
   }
   .card iframe{
-    width: 650px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
   }
 
   .ucapan{
